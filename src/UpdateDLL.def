@@ -1,0 +1,8 @@
+; UpdateDLL.def : Declares the module parameters for the DLL.
+
+LIBRARY      "UpdateDLL"
+DESCRIPTION  'UpdateDLL Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	StartUpdate	@1
